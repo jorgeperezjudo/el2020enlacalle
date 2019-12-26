@@ -215,7 +215,7 @@
         <div class="row align-items-center justify-content-center">
           <div class="col-lg-5 text-center">
             <h2 class="text-white mb-4">Haz una donación, genera una sonrisa.</h2>
-            <p><a href="#" class="btn btn-primary px-4 py-3 btn-block">Información para donar</a></p>
+            <!-- <p><a href="#" class="btn btn-primary px-4 py-3 btn-block">Información para donar</a></p> -->
           </div>
         </div>
       </div>
