@@ -72,10 +72,10 @@
 
     </header>
 
-    <div class="owl-carousel slide-one-item">
+    <!-- <div class="owl-carousel slide-one-item">
       <a href="#"><img src="images/hero_1.jpg" alt="Image" class="img-fluid"></a>
       <a href="#"><img src="images/hero_2.jpg" alt="Image" class="img-fluid"></a>
-    </div>
+    </div> -->
 
     <div class="d-block d-md-flex intro-engage">
       <div class="">
@@ -92,15 +92,17 @@
       </div>
     </div>
 
-    <div class="site-section bg-image overlay counter" style="background-image: url('images/hero_1_no-text.jpg');" id="about-section">
+    <div class="site-section bg-image overlay counter" style="background-image: url('images/3.jpg');" id="about-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-6 mb-4">
             <figure class="block-img-video-1" data-aos="fade">
-              <a href="https://vimeo.com/45830194" class="popup-vimeo">
+              <!-- <a href="https://vimeo.com/45830194" class="popup-vimeo">
+                  <img src="images/hero_1_no-text.jpg" alt="Image" class="img-fluid">
                 <span class="icon"><span class="icon-play"></span></span>
-                <img src="images/hero_1_no-text.jpg" alt="Image" class="img-fluid">
-              </a>
+              </a> -->
+              <img src="images/2.jpg" alt="Image" class="img-fluid">
+
             </figure>
           </div>
           <div class="col-lg-5 ml-auto align-self-lg-center">
@@ -151,7 +153,7 @@
         <div class="row mb-5">
 
           <div class="col-lg-6 mb-5">
-            <img src="images/hero_1_no-text.jpg" alt="Image" class="img-fluid">
+            <img src="images/1.jpg" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 ml-auto align-self-center">
             <h3 class="text-black text-uppercase mb-4">[LUGAR]</h3>
@@ -208,7 +210,7 @@
       </div>
     </div>
 
-    <div class="site-section bg-image overlay" style="background-image: url('images/hero_1_no-text.jpg');" id="donate-section">
+    <div class="site-section bg-image overlay" style="background-image: url('images/3.jpg');" id="donate-section">
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-lg-5 text-center">
@@ -506,7 +508,7 @@
                 </div>
             </div> -->
 
-<!-- 
+            <!-- 
             <h2 class="footer-heading mb-4">Follow Us</h2>
             <a href="#about-section" class="smoothscroll pl-0 pr-3"><span class="icon-facebook"></span></a>
             <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
