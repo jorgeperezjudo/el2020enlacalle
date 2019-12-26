@@ -438,7 +438,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-lg-6 mb-5">
-            <form action="send" method="post">
+            <!-- <form action="send" method="post">
               {{csrf_field()}}
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
@@ -462,7 +462,10 @@
                   <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Enviar">
                 </div>
               </div>
-            </form>
+            </form> -->
+            <center>
+              <h1><a href="mailto:el2020enlacalle@gmail.com">el2020enlacalle@gmail.com</a></h1>
+            </center>
           </div>
 
         </div>
