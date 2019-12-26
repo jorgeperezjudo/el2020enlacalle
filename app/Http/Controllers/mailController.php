@@ -10,7 +10,7 @@ class mailController extends Controller
 {
     public function send()
     {
-        Mail::send(new sendMail());
+        \Mail::send(new sendMail());
 
         return redirect()->guest('email');
     }
