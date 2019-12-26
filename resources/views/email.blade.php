@@ -233,28 +233,28 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-4 text-center">
             <span class="flaticon-blood d-block mb-3 display-3 text-secondary"></span>
-            <h3 class="text-primary h4 mb-2">Donación tipo 1</h3>
+            <h3 class="text-primary h4 mb-2">Donación tipo 2</h3>
             <p>Descripción</p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 text-center">
             <span class="flaticon-food d-block mb-3 display-3 text-secondary"></span>
-            <h3 class="text-primary h4 mb-2">Donación tipo 1</h3>
+            <h3 class="text-primary h4 mb-2">Donación tipo 3</h3>
             <p>Descripción</p>
           </div>
 
           <div class="col-md-6 col-lg-4 mb-4 text-center">
             <span class="flaticon-donation d-block mb-3 display-3 text-secondary"></span>
-            <h3 class="text-primary h4 mb-2">Donación tipo 1</h3>
+            <h3 class="text-primary h4 mb-2">Donación tipo 4</h3>
             <p>Descripción</p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 text-center">
             <span class="flaticon-dollar d-block mb-3 display-3 text-secondary"></span>
-            <h3 class="text-primary h4 mb-2">Donación tipo 1</h3>
+            <h3 class="text-primary h4 mb-2">Donación tipo 5</h3>
             <p>Descripción</p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 text-center">
             <span class="flaticon-unity d-block mb-3 display-3 text-secondary"></span>
-            <h3 class="text-primary h4 mb-2">Donación tipo 1</h3>
+            <h3 class="text-primary h4 mb-2">Donación tipo 6</h3>
             <p>Descripción</p>
           </div>
 
@@ -438,22 +438,23 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-lg-6 mb-5">
-            <form action="#" method="post">
+            <form action="send" method="post">
+              {{csrf_field()}}
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
-                  <input type="text" class="form-control" placeholder="Nombre">
+                  <input name="nombre" type="text" class="form-control" placeholder="Nombre">
                 </div>
               </div>
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <input type="text" class="form-control" placeholder="Correo">
+                  <input name="correo" type="text" class="form-control" placeholder="Correo">
                 </div>
               </div>
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <textarea name="" id="" class="form-control" placeholder="Mensaje" cols="30" rows="10"></textarea>
+                  <textarea name="texto" id="" class="form-control" placeholder="Mensaje" cols="30" rows="10"></textarea>
                 </div>
               </div>
               <div class="form-group row">
