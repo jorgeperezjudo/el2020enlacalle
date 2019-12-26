@@ -464,7 +464,7 @@
               </div>
             </form> -->
             <center>
-              <h1><a href="mailto:el2020enlacalle@gmail.com">el2020enlacalle@gmail.com</a></h1>
+              <a href="mailto:el2020enlacalle@gmail.com">el2020enlacalle@gmail.com</a>
             </center>
           </div>
 
